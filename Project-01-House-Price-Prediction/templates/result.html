@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏠 Prediction Result</h1>
+
+    <div class="result-box">
+
+        <h2>Estimated House Price</h2>
+
+        <h1 class="price">
+            ₹ {{ prediction }}
+        </h1>
+
+        <p class="model-tag">
+            Generated using Linear Regression Model
+        </p>
+
+    </div>
+
+    <h2>Entered Details</h2>
+
+    <table>
+
+        <tr>
+            <td>Area</td>
+            <td>{{ area }}</td>
+        </tr>
+
+        <tr>
+            <td>Bedrooms</td>
+            <td>{{ bedrooms }}</td>
+        </tr>
+
+        <tr>
+            <td>Bathrooms</td>
+            <td>{{ bathrooms }}</td>
+        </tr>
+
+        <tr>
+            <td>Stories</td>
+            <td>{{ stories }}</td>
+        </tr>
+
+        <tr>
+            <td>Parking</td>
+            <td>{{ parking }}</td>
+        </tr>
+
+        <tr>
+            <td>Main Road</td>
+            <td>{{ mainroad }}</td>
+        </tr>
+
+        <tr>
+            <td>Guest Room</td>
+            <td>{{ guestroom }}</td>
+        </tr>
+
+        <tr>
+            <td>Basement</td>
+            <td>{{ basement }}</td>
+        </tr>
+
+        <tr>
+            <td>Hot Water Heating</td>
+            <td>{{ hotwaterheating }}</td>
+        </tr>
+
+        <tr>
+            <td>Air Conditioning</td>
+            <td>{{ airconditioning }}</td>
+        </tr>
+
+        <tr>
+            <td>Preferred Area</td>
+            <td>{{ prefarea }}</td>
+        </tr>
+
+        <tr>
+            <td>Furnishing Status</td>
+            <td>{{ furnishingstatus }}</td>
+        </tr>
+
+    </table>
+
+    <a href="/">
+        <button>
+            Predict Another House
+        </button>
+    </a>
+
+    <div class="footer">
+        Built with Python, Flask & Scikit-Learn
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏠 House Price Prediction</h1>
+
+    <form action="/predict" method="post">
+
+        <label>Area (sq ft)</label>
+        <input type="number" name="area" required>
+
+        <label>Bedrooms</label>
+        <input type="number" name="bedrooms" required>
+
+        <label>Bathrooms</label>
+        <input type="number" name="bathrooms" required>
+
+        <label>Stories</label>
+        <input type="number" name="stories" required>
+
+        <label>Parking</label>
+        <input type="number" name="parking" required>
+
+        <label>Main Road</label>
+        <select name="mainroad">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Guest Room</label>
+        <select name="guestroom">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Basement</label>
+        <select name="basement">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Hot Water Heating</label>
+        <select name="hotwaterheating">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Air Conditioning</label>
+        <select name="airconditioning">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Preferred Area</label>
+        <select name="prefarea">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label>Furnishing Status</label>
+        <select name="furnishingstatus">
+            <option value="furnished">Furnished</option>
+            <option value="semi-furnished">Semi-Furnished</option>
+            <option value="unfurnished">Unfurnished</option>
+        </select>
+
+        <button type="submit">
+            Predict Price
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
