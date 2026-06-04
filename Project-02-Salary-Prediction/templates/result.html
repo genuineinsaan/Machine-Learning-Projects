@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💰 Salary Prediction Result</h1>
+
+    <div class="result-box">
+
+        <h2>Estimated Salary</h2>
+
+        <h1 class="salary">
+            ₹ {{ prediction }}
+        </h1>
+
+        <p class="model-tag">
+            Generated using Linear Regression Model
+        </p>
+
+    </div>
+
+    <h2>Input Details</h2>
+
+    <table>
+
+        <tr>
+            <td>Years of Experience</td>
+            <td>{{ experience }}</td>
+        </tr>
+
+    </table>
+
+    <a href="/">
+        <button>
+            Predict Again
+        </button>
+    </a>
+
+    <div class="footer">
+        Built with Python, Flask & Scikit-Learn
+    </div>
+
+</div>
+
+</body>
+</html>

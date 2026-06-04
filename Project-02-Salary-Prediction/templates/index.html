@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💰 Salary Prediction</h1>
+
+    <p class="description">
+        Predict employee salary based on years of professional experience using a Machine Learning model.
+    </p>
+
+    <form action="/predict" method="post">
+
+        <label>Years of Experience</label>
+
+        <input
+            type="number"
+            step="0.1"
+            name="experience"
+            placeholder="Enter years of experience"
+            required
+        >
+
+        <button type="submit">
+            Predict Salary
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
