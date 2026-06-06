@@ -24,12 +24,12 @@ Each project focuses on solving a real-world problem using Machine Learning tech
 
 ## Projects
 
-| Project No. | Project Name                           | Type           | Status        |
-| ----------- | -------------------------------------- | -------------- | ------------- |
-| 01          | House Price Prediction Web Application | Regression     | ✅ Completed   |
-| 02          | Salary Prediction Web Application      | Regression     | ✅ Completed   |
-| 03          | Titanic Survival Prediction            | Classification | ⏳ Coming Soon |
-| 04          | Loan Approval Prediction               | Classification | ⏳ Coming Soon |
+| Project No. | Project Name                                | Type           | Status        |
+| ----------- | ------------------------------------------- | -------------- | ------------- |
+| 01          | House Price Prediction Web Application      | Regression     | ✅ Completed   |
+| 02          | Salary Prediction Web Application           | Regression     | ✅ Completed   |
+| 03          | Titanic Survival Prediction Web Application | Classification | ✅ Completed   |
+| 04          | Loan Approval Prediction                    | Classification | ⏳ Coming Soon |
 
 ---
 
@@ -66,11 +66,34 @@ Machine-Learning-Projects/
 
 ## Challenge Progress
 
-Completed Projects: 2
+Completed Projects: 3
 
 Total Target Projects: 100
 
-Current Progress: 2/100
+Current Progress: 3/100
+
+---
+
+## Recent Accomplishments
+
+### Project 01: House Price Prediction
+
+* Built an end-to-end regression-based Machine Learning application.
+* Implemented data preprocessing, feature engineering, model training, and Flask deployment.
+* Developed a web interface for real-time house price prediction.
+
+### Project 02: Salary Prediction
+
+* Built a Linear Regression model to predict employee salaries based on years of experience.
+* Achieved an R² Score of 0.90.
+* Integrated the trained model into a Flask web application.
+
+### Project 03: Titanic Survival Prediction
+
+* Built a classification-based Machine Learning application using Logistic Regression.
+* Achieved an accuracy of 79.89%.
+* Implemented missing value handling, feature encoding, model evaluation, and Flask deployment.
+* Developed a web application for real-time passenger survival prediction.
 
 ---
 
