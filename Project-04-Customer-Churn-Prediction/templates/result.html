@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Customer Churn Prediction Result</h1>
+
+    <div class="result-box">
+
+        <h2>Prediction</h2>
+
+        <h1 class="prediction">
+            {{ result }}
+        </h1>
+
+        <p class="model-info">
+            Generated using Logistic Regression Model
+        </p>
+
+    </div>
+
+    <h2>Customer Summary</h2>
+
+    <table>
+
+        <tr>
+            <td>Tenure</td>
+            <td>{{ tenure }} Months</td>
+        </tr>
+
+        <tr>
+            <td>Monthly Charges</td>
+            <td>₹ {{ monthly_charges }}</td>
+        </tr>
+
+        <tr>
+            <td>Total Charges</td>
+            <td>₹ {{ total_charges }}</td>
+        </tr>
+
+        <tr>
+            <td>Contract Type</td>
+            <td>{{ contract }}</td>
+        </tr>
+
+        <tr>
+            <td>Payment Method</td>
+            <td>{{ payment_method }}</td>
+        </tr>
+
+    </table>
+
+    <a href="/">
+        <button>
+            Predict Another Customer
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>
