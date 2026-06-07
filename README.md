@@ -29,7 +29,8 @@ Each project focuses on solving a real-world problem using Machine Learning tech
 | 01          | House Price Prediction Web Application      | Regression     | ✅ Completed   |
 | 02          | Salary Prediction Web Application           | Regression     | ✅ Completed   |
 | 03          | Titanic Survival Prediction Web Application | Classification | ✅ Completed   |
-| 04          | Loan Approval Prediction                    | Classification | ⏳ Coming Soon |
+| 04          | Customer Churn Prediction Web Application   | Classification | ✅ Completed   |
+| 05          | Email Spam Detection                        | NLP            | ⏳ Coming Soon |
 
 ---
 
@@ -58,7 +59,9 @@ Machine-Learning-Projects/
 
 ├── Project-03-Titanic-Survival-Prediction/
 
-├── Project-04-Loan-Approval-Prediction/
+├── Project-04-Customer-Churn-Prediction/
+
+├── Project-05-Email-Spam-Detection/
 
 └── ...
 
@@ -66,11 +69,11 @@ Machine-Learning-Projects/
 
 ## Challenge Progress
 
-Completed Projects: 3
+Completed Projects: 4
 
 Total Target Projects: 100
 
-Current Progress: 3/100
+Current Progress: 4/100
 
 ---
 
@@ -94,6 +97,14 @@ Current Progress: 3/100
 * Achieved an accuracy of 79.89%.
 * Implemented missing value handling, feature encoding, model evaluation, and Flask deployment.
 * Developed a web application for real-time passenger survival prediction.
+
+### Project 04: Customer Churn Prediction
+
+* Built a classification-based Machine Learning application using Logistic Regression.
+* Achieved an accuracy of 81.69%.
+* Processed and encoded telecom customer data for churn analysis.
+* Evaluated performance using Confusion Matrix and Classification Report.
+* Developed a Flask web application for real-time customer churn prediction.
 
 ---
 
