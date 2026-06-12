@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    padding:30px;
+}
+
+.container{
+    width:850px;
+    max-width:95%;
+    background:#ffffff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.20);
+}
+
+h1{
+    text-align:center;
+    color:#1f2937;
+    margin-bottom:10px;
+    font-size:42px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6b7280;
+    margin-bottom:30px;
+    font-size:16px;
+}
+
+label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:600;
+    color:#374151;
+    font-size:16px;
+}
+
+textarea{
+    width:100%;
+    padding:18px;
+    border:2px solid #d1d5db;
+    border-radius:15px;
+    resize:none;
+    font-size:15px;
+    outline:none;
+    transition:0.3s;
+    min-height:220px;
+}
+
+textarea:focus{
+    border-color:#6366f1;
+    box-shadow:0 0 10px rgba(99,102,241,0.2);
+}
+
+input[type="submit"],
+button{
+    width:100%;
+    margin-top:20px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#6366f1;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover{
+    transform:translateY(-2px);
+    background:#4f46e5;
+}
+
+.result-box{
+    text-align:center;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+    background:#f3f4f6;
+}
+
+.prediction{
+    margin-top:15px;
+    font-size:42px;
+    font-weight:bold;
+}
+
+.ham{
+    color:#16a34a;
+}
+
+.spam{
+    color:#dc2626;
+}
+
+.model-info{
+    margin-top:15px;
+    color:#6b7280;
+    font-size:14px;
+}
+
+.message-box{
+    background:#f9fafb;
+    border:1px solid #e5e7eb;
+    padding:20px;
+    border-radius:15px;
+    line-height:1.8;
+    margin-top:10px;
+    white-space:pre-wrap;
+    text-align:left;
+    color:#374151;
+    min-height:auto;
+}
+
+h2{
+    margin-bottom:15px;
+    color:#1f2937;
+}
+
+a{
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+    .container{
+        padding:25px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    .prediction{
+        font-size:30px;
+    }
+
+    textarea{
+        min-height:180px;
+    }
+}
