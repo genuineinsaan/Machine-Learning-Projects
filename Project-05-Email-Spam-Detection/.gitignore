@@ -1,0 +1,48 @@
+# Python Cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Jupyter Notebook Checkpoints
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Operating System Files
+
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+
+.env
+
+# Logs
+
+*.log
+
+# Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+
+temp/
+tmp/
