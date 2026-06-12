@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detection Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Email Spam Detection</h1>
+
+    <p class="subtitle">
+        Prediction Generated Using Machine Learning & NLP
+    </p>
+
+    <div class="result-box">
+
+        <h2>Prediction Result</h2>
+
+        <h1 class="prediction {{ prediction_class }}">
+            {{ result }}
+        </h1>
+
+        <p class="model-info">
+            Model Accuracy: 96.68%
+        </p>
+
+    </div>
+
+    <h2>Message Content</h2>
+
+    <div class="message-box">
+        {{ message }}
+    </div>
+
+    <a href="/">
+        <button>
+            Check Another Message
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>

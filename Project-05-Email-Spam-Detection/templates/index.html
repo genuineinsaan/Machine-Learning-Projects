@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Spam Detection</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Email Spam Detection</h1>
+
+    <p class="subtitle">
+        Detect Spam Messages Using Machine Learning & Natural Language Processing
+    </p>
+
+    <form action="/predict" method="post">
+
+        <label>Enter Your Message</label>
+
+        <textarea
+            name="message"
+            placeholder="Type or paste your message here..."
+            required>
+        </textarea>
+
+        <input
+            type="submit"
+            value="Analyze Message">
+
+    </form>
+
+</div>
+
+</body>
+</html>
