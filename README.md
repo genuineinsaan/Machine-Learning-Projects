@@ -16,21 +16,22 @@ The goal of this challenge is to strengthen my understanding of:
 * Model Evaluation
 * Machine Learning Deployment
 * Flask Integration
+* Natural Language Processing (NLP)
 * End-to-End ML Applications
 
-Each project focuses on solving a real-world problem using Machine Learning techniques and deploying the solution through a user-friendly application.
+Each project focuses on solving real-world problems using Machine Learning techniques and deploying the solutions through user-friendly web applications.
 
 ---
 
 ## Projects
 
-| Project No. | Project Name                                | Type           | Status        |
-| ----------- | ------------------------------------------- | -------------- | ------------- |
-| 01          | House Price Prediction Web Application      | Regression     | ✅ Completed   |
-| 02          | Salary Prediction Web Application           | Regression     | ✅ Completed   |
-| 03          | Titanic Survival Prediction Web Application | Classification | ✅ Completed   |
-| 04          | Customer Churn Prediction Web Application   | Classification | ✅ Completed   |
-| 05          | Email Spam Detection                        | NLP            | ⏳ Coming Soon |
+| Project No. | Project Name                                | Type                 | Status      |
+| ----------- | ------------------------------------------- | -------------------- | ----------- |
+| 01          | House Price Prediction Web Application      | Regression           | ✅ Completed |
+| 02          | Salary Prediction Web Application           | Regression           | ✅ Completed |
+| 03          | Titanic Survival Prediction Web Application | Classification       | ✅ Completed |
+| 04          | Customer Churn Prediction Web Application   | Classification       | ✅ Completed |
+| 05          | Email Spam Detection Web Application        | NLP / Classification | ✅ Completed |
 
 ---
 
@@ -45,6 +46,9 @@ Each project focuses on solving a real-world problem using Machine Learning tech
 * Flask
 * HTML
 * CSS
+* Natural Language Processing (NLP)
+* TF-IDF Vectorization
+* Pickle
 * Jupyter Notebook
 
 ---
@@ -69,11 +73,11 @@ Machine-Learning-Projects/
 
 ## Challenge Progress
 
-Completed Projects: 4
+Completed Projects: 5
 
 Total Target Projects: 100
 
-Current Progress: 4/100
+Current Progress: 5/100
 
 ---
 
@@ -105,6 +109,36 @@ Current Progress: 4/100
 * Processed and encoded telecom customer data for churn analysis.
 * Evaluated performance using Confusion Matrix and Classification Report.
 * Developed a Flask web application for real-time customer churn prediction.
+
+### Project 05: Email Spam Detection
+
+* Built an NLP-based Machine Learning application using TF-IDF Vectorization and Multinomial Naive Bayes.
+* Achieved an accuracy of 96.68%.
+* Performed text preprocessing and feature extraction using Natural Language Processing techniques.
+* Evaluated model performance using Confusion Matrix and Classification Report.
+* Saved both the trained model and TF-IDF vectorizer using Pickle.
+* Developed a professional Flask web application for real-time spam message detection.
+
+---
+
+## Learning Journey
+
+Current Focus Areas:
+
+* Machine Learning
+* Classification Algorithms
+* Natural Language Processing
+* Flask Deployment
+* Model Optimization
+* End-to-End ML Projects
+
+Upcoming Projects:
+
+* Sentiment Analysis
+* Movie Recommendation System
+* Diabetes Prediction
+* Heart Disease Prediction
+* Image Classification
 
 ---
 
