@@ -195,12 +195,17 @@ Project-06-Movie-Recommendation-System/
 
 ### Home Page
 
+<img width="1007" height="856" alt="Screenshot 2026-06-20 084032" src="https://github.com/user-attachments/assets/24329c83-b645-4678-b1c4-56a5134fdeb7" />
+
+
 * Modern Glassmorphism UI
 * Searchable Movie Selection
 * Statistics Dashboard
 * Feature Highlights
 
 ### Recommendation Page
+
+<img width="453" height="687" alt="Screenshot 2026-06-20 084048" src="https://github.com/user-attachments/assets/7e43c8ce-4c96-4447-b6b1-756716bf87d4" />
 
 * Top 5 Recommendations
 * Ranked Recommendation Cards
