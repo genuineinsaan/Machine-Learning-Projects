@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Recommendation System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+          rel="stylesheet" />
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero-section">
+
+        <h1>🎬 Movie Recommendation System</h1>
+
+        <p class="subtitle">
+            Discover movies you'll love using Machine Learning,
+            NLP and Content-Based Recommendation
+        </p>
+
+    </div>
+
+    <div class="stats-section">
+
+        <div class="stat-card">
+            <h2>4800+</h2>
+            <p>Movies</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>5000</h2>
+            <p>Features</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>NLP</h2>
+            <p>Powered</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>ML</h2>
+            <p>Engine</p>
+        </div>
+
+    </div>
+
+    <div class="feature-box">
+
+        <div class="feature-item">
+            🎥 Content-Based Recommendation
+        </div>
+
+        <div class="feature-item">
+            🧠 Natural Language Processing
+        </div>
+
+        <div class="feature-item">
+            ⚡ Cosine Similarity Engine
+        </div>
+
+        <div class="feature-item">
+            ⭐ Smart Movie Suggestions
+        </div>
+
+    </div>
+
+    <div class="about-section">
+
+        <h2>How It Works</h2>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>📊 Data Processing</h3>
+                <p>
+                    Movies are analyzed using genres,
+                    cast, crew, keywords and overview.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>🧠 NLP Analysis</h3>
+                <p>
+                    Text data is converted into
+                    numerical features using NLP.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>⚡ Similarity Engine</h3>
+                <p>
+                    Cosine similarity finds movies
+                    most similar to your selection.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <form action="/recommend" method="post">
+
+        <label>Select Your Favorite Movie</label>
+
+        <select name="movie" required>
+
+            {% for movie in movie_list %}
+
+            <option value="{{ movie }}">
+                {{ movie }}
+            </option>
+
+            {% endfor %}
+
+        </select>
+
+        <input
+            type="submit"
+            value="🎬 Get Recommendations">
+
+    </form>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('select').select2({
+        placeholder: "Search for a movie...",
+        width: '100%'
+    });
+});
+</script>
+
+</body>
+</html>

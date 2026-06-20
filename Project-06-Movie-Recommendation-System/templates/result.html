@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Recommendations</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero-section">
+
+        <h1>🎥 Recommended Movies</h1>
+
+        <p class="subtitle">
+            Personalized recommendations generated using Machine Learning & NLP
+        </p>
+
+    </div>
+
+    <div class="selected-movie">
+
+        <h2>Selected Movie</h2>
+
+        <h3>{{ movie }}</h3>
+
+        <p class="recommendation-info">
+            Recommendations are generated using genres, keywords,
+            cast, crew and movie overview similarity.
+        </p>
+
+    </div>
+
+    <div class="recommendation-box">
+
+        <h2>⭐ Top Recommendations For You</h2>
+
+        <div class="movie-grid">
+
+            {% for movie in recommendations %}
+
+            <div class="movie-card">
+
+                <div class="movie-rank">
+                    #{{ loop.index }}
+                </div>
+
+                <div class="movie-poster">
+                    🎬
+                </div>
+
+                <h3>{{ movie }}</h3>
+
+                <div class="movie-tags">
+                    <span>ML</span>
+                    <span>NLP</span>
+                    <span>Similar</span>
+                </div>
+
+                <p>
+                    Recommended based on content similarity
+                    and feature matching.
+                </p>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    <div class="footer-note">
+
+        <p>
+            🚀 Built using Python, Pandas, Scikit-Learn,
+            NLP, Cosine Similarity and Flask.
+        </p>
+
+    </div>
+
+    <a href="/">
+        <button>
+            🔄 Recommend Another Movie
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>
