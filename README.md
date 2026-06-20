@@ -17,6 +17,7 @@ The goal of this challenge is to strengthen my understanding of:
 * Machine Learning Deployment
 * Flask Integration
 * Natural Language Processing (NLP)
+* Recommendation Systems
 * End-to-End ML Applications
 
 Each project focuses on solving real-world problems using Machine Learning techniques and deploying the solutions through user-friendly web applications.
@@ -25,13 +26,14 @@ Each project focuses on solving real-world problems using Machine Learning techn
 
 ## Projects
 
-| Project No. | Project Name                                | Type                 | Status      |
-| ----------- | ------------------------------------------- | -------------------- | ----------- |
-| 01          | House Price Prediction Web Application      | Regression           | ✅ Completed |
-| 02          | Salary Prediction Web Application           | Regression           | ✅ Completed |
-| 03          | Titanic Survival Prediction Web Application | Classification       | ✅ Completed |
-| 04          | Customer Churn Prediction Web Application   | Classification       | ✅ Completed |
-| 05          | Email Spam Detection Web Application        | NLP / Classification | ✅ Completed |
+| Project No. | Project Name                                | Type                        | Status      |
+| ----------- | ------------------------------------------- | --------------------------- | ----------- |
+| 01          | House Price Prediction Web Application      | Regression                  | ✅ Completed |
+| 02          | Salary Prediction Web Application           | Regression                  | ✅ Completed |
+| 03          | Titanic Survival Prediction Web Application | Classification              | ✅ Completed |
+| 04          | Customer Churn Prediction Web Application   | Classification              | ✅ Completed |
+| 05          | Email Spam Detection Web Application        | NLP / Classification        | ✅ Completed |
+| 06          | Movie Recommendation System                 | Recommendation System / NLP | ✅ Completed |
 
 ---
 
@@ -48,6 +50,9 @@ Each project focuses on solving real-world problems using Machine Learning techn
 * CSS
 * Natural Language Processing (NLP)
 * TF-IDF Vectorization
+* Count Vectorization
+* Cosine Similarity
+* NLTK
 * Pickle
 * Jupyter Notebook
 
@@ -67,17 +72,19 @@ Machine-Learning-Projects/
 
 ├── Project-05-Email-Spam-Detection/
 
+├── Project-06-Movie-Recommendation-System/
+
 └── ...
 
 ---
 
 ## Challenge Progress
 
-Completed Projects: 5
+Completed Projects: 6
 
 Total Target Projects: 100
 
-Current Progress: 5/100
+Current Progress: 6/100
 
 ---
 
@@ -107,7 +114,7 @@ Current Progress: 5/100
 * Built a classification-based Machine Learning application using Logistic Regression.
 * Achieved an accuracy of 81.69%.
 * Processed and encoded telecom customer data for churn analysis.
-* Evaluated performance using Confusion Matrix and Classification Report.
+* Evaluated model performance using Confusion Matrix and Classification Report.
 * Developed a Flask web application for real-time customer churn prediction.
 
 ### Project 05: Email Spam Detection
@@ -119,6 +126,16 @@ Current Progress: 5/100
 * Saved both the trained model and TF-IDF vectorizer using Pickle.
 * Developed a professional Flask web application for real-time spam message detection.
 
+### Project 06: Movie Recommendation System
+
+* Built a Content-Based Recommendation System using Machine Learning and Natural Language Processing.
+* Utilized feature engineering by combining genres, keywords, cast, crew, and movie overview.
+* Applied text preprocessing and stemming using NLTK.
+* Generated feature vectors using CountVectorizer.
+* Calculated movie similarity using Cosine Similarity.
+* Saved trained objects using Pickle.
+* Developed a modern Flask web application with a premium user interface for movie recommendations.
+
 ---
 
 ## Learning Journey
@@ -128,14 +145,16 @@ Current Focus Areas:
 * Machine Learning
 * Classification Algorithms
 * Natural Language Processing
+* Recommendation Systems
 * Flask Deployment
+* Feature Engineering
 * Model Optimization
 * End-to-End ML Projects
 
 Upcoming Projects:
 
+* Face Detection System
 * Sentiment Analysis
-* Movie Recommendation System
 * Diabetes Prediction
 * Heart Disease Prediction
 * Image Classification
@@ -144,10 +163,10 @@ Upcoming Projects:
 
 ## Author
 
-Shashank Srivastava
+**Shashank Srivastava**
 
 Aspiring AI/ML Engineer | Machine Learning Enthusiast
 
 ---
 
-If you find these projects useful, feel free to explore the repository and follow my journey through the 100 Days of Machine Learning Challenge.
+If you find these projects useful, feel free to explore the repository and follow my journey through the **100 Days of Machine Learning Challenge**.
